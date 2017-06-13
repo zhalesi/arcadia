@@ -8,5 +8,12 @@ namespace Arcadia.Controllers
 {
     public class ArcadeGameController : Controller
     {
+
+        public string Detalhes() {
+
+            return "Hello from the arcade game controller";
+
+        }
+
     }
 }
